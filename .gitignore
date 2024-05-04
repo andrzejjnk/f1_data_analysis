@@ -1,0 +1,9 @@
+# Ignore .idea directory
+.idea/
+
+# Ignore .vscode directory
+.vscode/
+
+# Ignore __pycache__ directories
+__pycache__/
+*.pyc

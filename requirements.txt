@@ -1,0 +1,13 @@
+pandas==1.5.1
+sqlalchemy==2.0.27
+psycopg2==2.9.5
+streamlit==1.33.0
+streamlit-on-Hover-tabs==1.0.1
+plotly==5.13.1
+numpy==1.26.4
+bs4==0.0.2
+urllib3==1.26.13
+h5py==3.8.0
+html5lib==1.1
+lxml==5.2.1
+soupsieve==2.3.2
