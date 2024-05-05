@@ -432,3 +432,12 @@ https://www.formula1.com/en/results.html/2024/races/1233/china/sprint-results.ht
 https://www.formula1.com/en/results.html/2024/races/1233/china/sprint-grid.html
 https://www.formula1.com/en/results.html/2024/races/1233/china/sprint-qualifying.html
 https://www.formula1.com/en/results.html/2024/races/1233/china/practice-1.html
+https://www.formula1.com/en/results.html/2024/races/1234/miami/race-result.html
+https://www.formula1.com/en/results.html/2024/races/1234/miami/fastest-laps.html
+https://www.formula1.com/en/results.html/2024/races/1234/miami/pit-stop-summary.html
+https://www.formula1.com/en/results.html/2024/races/1234/miami/starting-grid.html
+https://www.formula1.com/en/results.html/2024/races/1234/miami/qualifying.html
+https://www.formula1.com/en/results.html/2024/races/1234/miami/sprint-results.html
+https://www.formula1.com/en/results.html/2024/races/1234/miami/sprint-grid.html
+https://www.formula1.com/en/results.html/2024/races/1234/miami/sprint-qualifying.html
+https://www.formula1.com/en/results.html/2024/races/1234/miami/practice-1.html

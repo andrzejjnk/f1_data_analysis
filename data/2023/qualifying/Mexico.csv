@@ -1,0 +1,21 @@
+Pos,No,Driver,Car,Q1,Q2,Q3,Laps
+1,16,Charles Leclerc LEC,Ferrari,1:18.401,1:17.901,1:17.166,17
+2,55,Carlos Sainz SAI,Ferrari,1:18.755,1:18.382,1:17.233,17
+3,1,Max Verstappen VER,Red Bull Racing Honda RBPT,1:18.099,1:17.625,1:17.263,15
+4,3,Daniel Ricciardo RIC,AlphaTauri Honda RBPT,1:18.341,1:17.706,1:17.382,15
+5,11,Sergio Perez PER,Red Bull Racing Honda RBPT,1:18.553,1:18.124,1:17.423,16
+6,44,Lewis Hamilton HAM,Mercedes,1:18.677,1:17.571,1:17.454,18
+7,81,Oscar Piastri PIA,McLaren Mercedes,1:18.241,1:17.874,1:17.623,18
+8,63,George Russell RUS,Mercedes,1:18.893,1:17.673,1:17.674,19
+9,77,Valtteri Bottas BOT,Alfa Romeo Ferrari,1:18.429,1:18.016,1:18.032,17
+10,24,Zhou Guanyu ZHO,Alfa Romeo Ferrari,1:19.016,1:18.440,1:18.050,15
+11,10,Pierre Gasly GAS,Alpine Renault,1:18.945,1:18.521,,15
+12,27,Nico Hulkenberg HUL,Haas Ferrari,1:18.969,1:18.524,,12
+13,14,Fernando Alonso ALO,Aston Martin Aramco Mercedes,1:18.848,1:18.738,,14
+14,23,Alexander Albon ALB,Williams Mercedes,1:18.828,1:19.147,,12
+15,22,Yuki Tsunoda TSU,AlphaTauri Honda RBPT,1:18.890,DNF,,11
+16,31,Esteban Ocon OCO,Alpine Renault,1:19.080,,,6
+17,20,Kevin Magnussen MAG,Haas Ferrari,1:19.163,,,9
+18,18,Lance Stroll STR,Aston Martin Aramco Mercedes,1:19.227,,,9
+19,4,Lando Norris NOR,McLaren Mercedes,1:21.554,,,6
+NC,2,Logan Sargeant SAR,Williams Mercedes,DNF,,,6

@@ -1,0 +1,21 @@
+Pos,No,Driver,Car,Lap,Time of day,Time,Avg Speed
+1,44,Lewis Hamilton HAM,Mercedes,33,15:46:32,1:15.650,158.799
+2,16,Charles Leclerc LEC,Ferrari,46,16:03:24,1:15.773,158.541
+3,10,Pierre Gasly GAS,Alpine Renault,49,16:07:15,1:15.831,158.42
+4,11,Sergio Perez PER,Red Bull Racing Honda RBPT,5,15:10:10,1:16.269,157.51
+5,55,Carlos Sainz SAI,Ferrari,43,15:59:22,1:16.449,157.14
+6,31,Esteban Ocon OCO,Alpine Renault,41,15:56:46,1:16.528,156.977
+7,1,Max Verstappen VER,Red Bull Racing Honda RBPT,23,15:32:49,1:16.604,156.822
+8,23,Alexander Albon ALB,Williams Mercedes,24,15:35:25,1:16.672,156.683
+9,14,Fernando Alonso ALO,Aston Martin Aramco Mercedes,43,15:58:50,1:16.674,156.678
+10,63,George Russell RUS,Mercedes,48,16:05:42,1:16.798,156.425
+11,24,Zhou Guanyu ZHO,Alfa Romeo Ferrari,5,15:10:14,1:16.926,156.165
+12,27,Nico Hulkenberg HUL,Haas Ferrari,6,15:11:32,1:16.991,156.033
+13,2,Logan Sargeant SAR,Williams Mercedes,32,15:46:25,1:17.302,155.406
+14,81,Oscar Piastri PIA,McLaren Mercedes,47,16:05:04,1:17.513,154.983
+15,21,Nyck De Vries DEV,AlphaTauri Honda RBPT,43,16:00:13,1:17.561,154.887
+16,22,Yuki Tsunoda TSU,AlphaTauri Honda RBPT,36,15:50:35,1:17.680,154.649
+17,18,Lance Stroll STR,Aston Martin Aramco Mercedes,18,15:27:21,1:17.769,154.472
+18,77,Valtteri Bottas BOT,Alfa Romeo Ferrari,19,15:28:34,1:17.824,154.363
+19,4,Lando Norris NOR,McLaren Mercedes,46,16:03:42,1:17.844,154.324
+20,20,Kevin Magnussen MAG,Haas Ferrari,41,15:57:42,1:18.351,153.325

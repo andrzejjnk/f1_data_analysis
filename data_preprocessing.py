@@ -13,9 +13,9 @@ pages_sprint = ["race-result", "fastest-laps", "pit-stop-summary", "starting-gri
 
 sprints_2022 = ["2022/races/1109/italy", "2022/races/1115/austria", "2022/races/1137/brazil"]
 sprints_2023 = ["2023/races/1207/azerbaijan", "2023/races/1213/austria", "2023/races/1216/belgium", "2023/races/1221/qatar", "2023/races/1222/united-states", "2023/races/1224/brazil"]
-sprints_2024 = ["2024/races/1233/china"]
+sprints_2024 = ["2024/races/1233/china", "2024/races/1234/miami"]
 
-sprints = ["2022/races/1109/italy", "2022/races/1115/austria", "2022/races/1137/brazil", "2023/races/1207/azerbaijan", "2023/races/1213/austria", "2023/races/1216/belgium", "2023/races/1221/qatar", "2023/races/1222/united-states", "2023/races/1224/brazil", "2024/races/1233/china"]
+sprints = ["2022/races/1109/italy", "2022/races/1115/austria", "2022/races/1137/brazil", "2023/races/1207/azerbaijan", "2023/races/1213/austria", "2023/races/1216/belgium", "2023/races/1221/qatar", "2023/races/1222/united-states", "2023/races/1224/brazil", "2024/races/1233/china", "2024/races/1234/miami"]
 
 years = [2022, 2023, 2024]
 
@@ -37,7 +37,7 @@ with open('urls/races_url.txt', 'r') as file:
 
 # replace page in urls
 def replace_page_in_urls(urls: List[str]) -> List[str]:
-    sprints = ["2022/races/1109/italy", "2022/races/1115/austria", "2022/races/1137/brazil", "2023/races/1207/azerbaijan", "2023/races/1213/austria", "2023/races/1216/belgium", "2023/races/1221/qatar", "2023/races/1222/united-states", "2023/races/1224/brazil", "2024/races/1233/china"]
+    sprints = ["2022/races/1109/italy", "2022/races/1115/austria", "2022/races/1137/brazil", "2023/races/1207/azerbaijan", "2023/races/1213/austria", "2023/races/1216/belgium", "2023/races/1221/qatar", "2023/races/1222/united-states", "2023/races/1224/brazil", "2024/races/1233/china", "2024/races/1234/miami"]
     pages_normal = ["race-result", "fastest-laps", "pit-stop-summary", "starting-grid", "qualifying", "practice-3", "practice-2", "practice-1"]
     pages_sprint22 = ["race-result", "fastest-laps", "pit-stop-summary", "starting-grid", "qualifying", "sprint-results", "sprint-grid", "practice-2", "practice-1"]
     pages_sprint = ["race-result", "fastest-laps", "pit-stop-summary", "starting-grid", "qualifying", "sprint-results", "sprint-grid", "sprint-qualifying", "practice-1"]

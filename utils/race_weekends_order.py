@@ -53,8 +53,8 @@ race_order_2024 = {
     2: 'Saudi Arabia',
     3: 'Australia',
     4: 'Japan',
-    5: 'China'
-    # 6: 'Miami',
+    5: 'China',
+    6: 'Miami'
     # 7: 'Imola',
     # 8: 'Monaco',
     # 9: 'Canada',

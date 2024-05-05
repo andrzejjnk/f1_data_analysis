@@ -14,8 +14,8 @@ sprint_order_2023 = {
 }
 
 sprint_order_2024 = {
-    1: 'China'
-    # 2: 'Miami',
+    1: 'China',
+    2: 'Miami'
     # 3: 'Austria',
     # 4: 'United States',
     # 5: 'Brazil',
