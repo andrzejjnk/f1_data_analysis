@@ -46,7 +46,7 @@ practice3_order_2024 = {
     4: 'Japan',
     # 5: 'China' # to delete because it's sprint weekend
     # 6: 'Miami', # to delete because it's sprint weekend
-    # 7: 'Imola',
+    5: 'Imola'
     # 8: 'Monaco',
     # 9: 'Canada',
     # 10: 'Spain',

@@ -114,7 +114,7 @@ def download_data() -> None:
                         country = url.split("races/")[1].split("/")[1]
                         country = country.replace("-", " ")
                         country = country.title()
-                        if country == "Italy" and (race == 1109 or race == 1209):
+                        if country == "Italy" and (race == 1109 or race == 1209 or race == 1235):
                             country = "Imola"
                         data.to_csv(f"{directory}/{country}.csv", index=False)
 
