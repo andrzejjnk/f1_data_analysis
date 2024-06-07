@@ -503,7 +503,7 @@ def init_database(engine) -> None:
         print("Database successfully initialized!")
 
     except Exception as e:
-        print("Cannot init database: {e}")
+        print(f"Cannot init database: {e}")
 
 
 # insert to the database data from csv files to appropriate tables in database
@@ -525,7 +525,7 @@ def insert_data_to_database() -> None:
         print("Data successfully inserted into database!")
 
     except Exception as e:
-        print("Cannot insert data into database: {e}")
+        print(f"Cannot insert data into database: {e}")
 
 
 if __name__=="__main__":
