@@ -396,6 +396,8 @@ https://www.formula1.com/en/results.html/2024/races/1232/japan/race-result.html
 https://www.formula1.com/en/results.html/2024/races/1233/china/race-result.html
 https://www.formula1.com/en/results.html/2024/races/1234/miami/race-result.html
 https://www.formula1.com/en/results.html/2024/races/1235/italy/race-result.html
+https://www.formula1.com/en/results.html/2024/races/1236/monaco/race-result.html
+https://www.formula1.com/en/results.html/2024/races/1237/canada/race-result.html
 https://www.formula1.com/en/results.html/2024/races/1229/bahrain/fastest-laps.html
 https://www.formula1.com/en/results.html/2024/races/1230/saudi-arabia/fastest-laps.html
 https://www.formula1.com/en/results.html/2024/races/1231/australia/fastest-laps.html
@@ -403,6 +405,8 @@ https://www.formula1.com/en/results.html/2024/races/1232/japan/fastest-laps.html
 https://www.formula1.com/en/results.html/2024/races/1233/china/fastest-laps.html
 https://www.formula1.com/en/results.html/2024/races/1234/miami/fastest-laps.html
 https://www.formula1.com/en/results.html/2024/races/1235/italy/fastest-laps.html
+https://www.formula1.com/en/results.html/2024/races/1236/monaco/fastest-laps.html
+https://www.formula1.com/en/results.html/2024/races/1237/canada/fastest-laps.html
 https://www.formula1.com/en/results.html/2024/races/1229/bahrain/pit-stop-summary.html
 https://www.formula1.com/en/results.html/2024/races/1230/saudi-arabia/pit-stop-summary.html
 https://www.formula1.com/en/results.html/2024/races/1231/australia/pit-stop-summary.html
@@ -410,6 +414,8 @@ https://www.formula1.com/en/results.html/2024/races/1232/japan/pit-stop-summary.
 https://www.formula1.com/en/results.html/2024/races/1233/china/pit-stop-summary.html
 https://www.formula1.com/en/results.html/2024/races/1234/miami/pit-stop-summary.html
 https://www.formula1.com/en/results.html/2024/races/1235/italy/pit-stop-summary.html
+https://www.formula1.com/en/results.html/2024/races/1236/monaco/pit-stop-summary.html
+https://www.formula1.com/en/results.html/2024/races/1237/canada/pit-stop-summary.html
 https://www.formula1.com/en/results.html/2024/races/1229/bahrain/starting-grid.html
 https://www.formula1.com/en/results.html/2024/races/1230/saudi-arabia/starting-grid.html
 https://www.formula1.com/en/results.html/2024/races/1231/australia/starting-grid.html
@@ -417,6 +423,8 @@ https://www.formula1.com/en/results.html/2024/races/1232/japan/starting-grid.htm
 https://www.formula1.com/en/results.html/2024/races/1233/china/starting-grid.html
 https://www.formula1.com/en/results.html/2024/races/1234/miami/starting-grid.html
 https://www.formula1.com/en/results.html/2024/races/1235/italy/starting-grid.html
+https://www.formula1.com/en/results.html/2024/races/1236/monaco/starting-grid.html
+https://www.formula1.com/en/results.html/2024/races/1237/canada/starting-grid.html
 https://www.formula1.com/en/results.html/2024/races/1229/bahrain/qualifying.html
 https://www.formula1.com/en/results.html/2024/races/1230/saudi-arabia/qualifying.html
 https://www.formula1.com/en/results.html/2024/races/1231/australia/qualifying.html
@@ -426,6 +434,8 @@ https://www.formula1.com/en/results.html/2024/races/1233/china/sprint-qualifying
 https://www.formula1.com/en/results.html/2024/races/1234/miami/qualifying.html
 https://www.formula1.com/en/results.html/2024/races/1234/miami/sprint-qualifying.html
 https://www.formula1.com/en/results.html/2024/races/1235/italy/qualifying.html
+https://www.formula1.com/en/results.html/2024/races/1236/monaco/qualifying.html
+https://www.formula1.com/en/results.html/2024/races/1237/canada/qualifying.html
 https://www.formula1.com/en/results.html/2024/races/1233/china/sprint-results.html
 https://www.formula1.com/en/results.html/2024/races/1234/miami/sprint-results.html
 https://www.formula1.com/en/results.html/2024/races/1233/china/sprint-grid.html
@@ -437,11 +447,15 @@ https://www.formula1.com/en/results.html/2024/races/1230/saudi-arabia/practice-3
 https://www.formula1.com/en/results.html/2024/races/1231/australia/practice-3.html
 https://www.formula1.com/en/results.html/2024/races/1232/japan/practice-3.html
 https://www.formula1.com/en/results.html/2024/races/1235/italy/practice-3.html
+https://www.formula1.com/en/results.html/2024/races/1236/monaco/practice-3.html
+https://www.formula1.com/en/results.html/2024/races/1237/canada/practice-3.html
 https://www.formula1.com/en/results.html/2024/races/1229/bahrain/practice-2.html
 https://www.formula1.com/en/results.html/2024/races/1230/saudi-arabia/practice-2.html
 https://www.formula1.com/en/results.html/2024/races/1231/australia/practice-2.html
 https://www.formula1.com/en/results.html/2024/races/1232/japan/practice-2.html
 https://www.formula1.com/en/results.html/2024/races/1235/italy/practice-2.html
+https://www.formula1.com/en/results.html/2024/races/1236/monaco/practice-2.html
+https://www.formula1.com/en/results.html/2024/races/1237/canada/practice-2.html
 https://www.formula1.com/en/results.html/2024/races/1229/bahrain/practice-1.html
 https://www.formula1.com/en/results.html/2024/races/1230/saudi-arabia/practice-1.html
 https://www.formula1.com/en/results.html/2024/races/1231/australia/practice-1.html
@@ -449,3 +463,5 @@ https://www.formula1.com/en/results.html/2024/races/1232/japan/practice-1.html
 https://www.formula1.com/en/results.html/2024/races/1233/china/practice-1.html
 https://www.formula1.com/en/results.html/2024/races/1234/miami/practice-1.html
 https://www.formula1.com/en/results.html/2024/races/1235/italy/practice-1.html
+https://www.formula1.com/en/results.html/2024/races/1236/monaco/practice-1.html
+https://www.formula1.com/en/results.html/2024/races/1237/canada/practice-1.html

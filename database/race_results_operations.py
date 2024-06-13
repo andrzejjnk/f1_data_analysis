@@ -122,19 +122,40 @@ def get_driver_results_per_year(year: int, driver: str) -> pd.DataFrame:
                 print(f"Cannot fetch the data from database {e}")
 
 
-def get_driver_results_per_country(country: str, driver: str) -> None | pd.DataFrame:
+# def get_driver_results_per_country(country: str, driver: str) -> None | pd.DataFrame:
+#     if all(isinstance(arg, (str, str)) for arg in (driver, country)):
+#         with Session() as session:
+#             try:
+#                 race_records = session.query(RaceResultRec).filter_by(Driver=driver, Country=country).all()
+#                 records_as_dicts = [record.__dict__ for record in race_records]
+#                 for record in records_as_dicts:
+#                     record.pop('_sa_instance_state', None)
+#                 df = pd.DataFrame(records_as_dicts)
+#                 df['Position'] = df['Position'].replace({0: 'Not Classified', -1: 'DQ'})
+#                 df_sorted = df.sort_values(by='Year', ascending=True)
+#                 return df_sorted
+#             except SQLAlchemyError as e:
+#                 session.rollback()
+#                 print(f"Cannot fetch the data from database {e}")
+#                 return None
+def get_driver_results_per_country(country: int, driver: str) -> None | pd.DataFrame:
     if all(isinstance(arg, (str, str)) for arg in (driver, country)):
         with Session() as session:
             try:
-                race_records = session.query(RaceResultRec).filter_by(Driver=driver, Country=country).all()
-                records_as_dicts = [record.__dict__ for record in race_records]
-                for record in records_as_dicts:
-                    record.pop('_sa_instance_state', None)
+                query = text('SELECT * FROM public."RaceResults" WHERE "Driver" = :driver AND "Country" = :country')
+                values ={
+                            'driver': driver,
+                            'country': country
+                        }
+                race_records = session.execute(query, values).fetchall()
+                columns = RaceResultRec.__table__.columns.keys()
+                records_as_dicts = [dict(zip(columns, record)) for record in race_records]
                 df = pd.DataFrame(records_as_dicts)
                 df['Position'] = df['Position'].replace({0: 'Not Classified', -1: 'DQ'})
                 df_sorted = df.sort_values(by='Year', ascending=True)
                 return df_sorted
-            except SQLAlchemyError as e:
+
+            except Exception as e:
                 session.rollback()
                 print(f"Cannot fetch the data from database {e}")
                 return None

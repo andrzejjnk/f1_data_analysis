@@ -122,23 +122,45 @@ def get_driver_results_per_year_sprints(year: int, driver: str) -> pd.DataFrame:
                 print(f"Cannot fetch the data from database {e}")
 
 
-def get_driver_results_per_country(country: str, driver: str) -> None | pd.DataFrame:
+# def get_driver_results_per_country(country: str, driver: str) -> None | pd.DataFrame:
+#     if all(isinstance(arg, (str, str)) for arg in (driver, country)):
+#         with Session() as session:
+#             try:
+#                 sprint_records = session.query(SprintResultRec).filter_by(Driver=driver, Country=country).all()
+#                 records_as_dicts = [record.__dict__ for record in sprint_records]
+#                 for record in records_as_dicts:
+#                     record.pop('_sa_instance_state', None)
+#                 df = pd.DataFrame(records_as_dicts)
+#                 print(df.columns)
+#                 df['Position'] = df['Position'].replace({0: 'Not Classified', -1: 'DQ'})
+#                 df_sorted = df.sort_values(by='Year', ascending=True)
+#                 return df_sorted
+#             except SQLAlchemyError as e:
+#                 session.rollback()
+#                 print(f"Cannot fetch the data from database {e}")
+#                 return None
+
+def get_driver_results_per_country(country: int, driver: str) -> None | pd.DataFrame:
     if all(isinstance(arg, (str, str)) for arg in (driver, country)):
         with Session() as session:
             try:
-                sprint_records = session.query(SprintResultRec).filter_by(Driver=driver, Country=country).all()
-                records_as_dicts = [record.__dict__ for record in sprint_records]
-                for record in records_as_dicts:
-                    record.pop('_sa_instance_state', None)
+                query = text('SELECT * FROM public."SprintResults" WHERE "Driver" = :driver AND "Country" = :country')
+                values ={
+                            'driver': driver,
+                            'country': country
+                        }
+                sprint_records = session.execute(query, values).fetchall()
+                columns = SprintResultRec.__table__.columns.keys()
+                records_as_dicts = [dict(zip(columns, record)) for record in sprint_records]
                 df = pd.DataFrame(records_as_dicts)
                 df['Position'] = df['Position'].replace({0: 'Not Classified', -1: 'DQ'})
                 df_sorted = df.sort_values(by='Year', ascending=True)
                 return df_sorted
-            except SQLAlchemyError as e:
+
+            except Exception as e:
                 session.rollback()
                 print(f"Cannot fetch the data from database {e}")
                 return None
-
 
 def get_drivers_per_year_from_sprints(year: int) -> pd.DataFrame:
     if isinstance(year, int):
